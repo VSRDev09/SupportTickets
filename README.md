@@ -2,11 +2,6 @@
 
 API REST para controle de chamados internos, desenvolvida em ASP.NET Core 8 com PostgreSQL, autenticação JWT e arquitetura em camadas.
 
-![.NET](https://shields.io)
-![PostgreSQL](https://shields.io)
-![Render](https://shields.io)
-[![Vercel](https://shields.io)](https://support-tickets-frontend.vercel.app)
-
 ---
 
 ## 🚀 Demonstração - Sistema em Produção
