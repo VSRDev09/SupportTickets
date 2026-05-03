@@ -28,8 +28,11 @@ public class Chamado
     public Setor Setor { get; private set; } = null!;
     public Prioridade Prioridade { get; private set; } = null!;
     public Atendimento? Atendimento { get; private set; }
+
+    //Quero que histórico seja imutável apenas para auditoria
     public IReadOnlyCollection<StatusHistorico> Historicos => _historicos.AsReadOnly();
 
+    //Aqui irei criar o chamado aplicando as validações de domínio
     public static Chamado Criar(
         string titulo,
         string descricao,
@@ -154,6 +157,7 @@ public class Chamado
         _historicos.Add(StatusHistorico.Criar(status, alteradoPor, alteradoEmUtc));
     }
 
+    //Aqui estou validando os dados do domínio
     private static void ValidarDadosBasicos(
         string titulo,
         string descricao,
