@@ -2,6 +2,29 @@
 
 API REST para controle de chamados internos, desenvolvida em ASP.NET Core 8 com PostgreSQL, autenticação JWT e arquitetura em camadas.
 
+[![Deploy with Vercel](https://githubusercontent.com)](https://vercel.app)
+![.NET](https://shields.io)
+![PostgreSQL](https://shields.io)
+![Render](https://shields.io)
+
+---
+
+## 🚀 Demonstração - Sistema em produção
+**Acesse agora:** [https://support-tickets-frontend.vercel.app](https://support-tickets-frontend.vercel.app)
+*(Nota: Por estar no plano gratuito, a API pode levar cerca de 50s para "acordar" no primeiro acesso).*
+
+Acessar como usuário:
+Login: usuariodemo@email.com
+Senha: usuariodemo123
+
+Acessar como atendente:
+Login: atendentedemo@email.com
+Senha: atendentedemo123
+
+Acessar como administrador:
+Login: admin@supporttickets.local
+Senha: Admin@123
+
 ## Sumario
 
 - [Visao Geral](#visao-geral)
