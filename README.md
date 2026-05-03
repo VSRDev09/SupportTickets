@@ -72,7 +72,6 @@ SupportTickets
 ├─ tests
 ├─ .env.example
 ├─ .gitignore
-├─ Desenvolvimento.md
 ├─ NuGet.Config
 ├─ README.md
 └─ SupportTickets.sln
