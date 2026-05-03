@@ -1,29 +1,31 @@
-# SupportTickets
+# 🎫 SupportTickets
 
 API REST para controle de chamados internos, desenvolvida em ASP.NET Core 8 com PostgreSQL, autenticação JWT e arquitetura em camadas.
 
-[![Deploy with Vercel](https://githubusercontent.com)](https://vercel.app)
 ![.NET](https://shields.io)
 ![PostgreSQL](https://shields.io)
 ![Render](https://shields.io)
+[![Vercel](https://shields.io)](https://support-tickets-frontend.vercel.app)
 
 ---
 
-## 🚀 Demonstração - Sistema em produção
+## 🚀 Demonstração - Sistema em Produção
+
 **Acesse agora:** [https://support-tickets-frontend.vercel.app](https://support-tickets-frontend.vercel.app)
-*(Nota: Por estar no plano gratuito, a API pode levar cerca de 50s para "acordar" no primeiro acesso).*
 
-Acessar como usuário:
-Login: usuariodemo@email.com
-Senha: usuariodemo123
+> 💡 **Nota:** Por estar no plano gratuito (Render), a API pode levar cerca de **50 segundos** para "acordar" no primeiro acesso.
 
-Acessar como atendente:
-Login: atendentedemo@email.com
-Senha: atendentedemo123
+### 🔑 Contas para Teste
 
-Acessar como administrador:
-Login: admin@supporttickets.local
-Senha: Admin@123
+
+| Perfil | Login | Senha |
+| :--- | :--- | :--- |
+| **Usuário** | `usuariodemo@email.com` | `usuariodemo123` |
+| **Atendente** | `atendentedemo@email.com` | `atendentedemo123` |
+| **Admin** | `admin@supporttickets.local` | `Admin@123` |
+
+---
+
 
 ## Sumario
 
